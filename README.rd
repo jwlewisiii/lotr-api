@@ -12,10 +12,8 @@ A simple Laravel + Vue 3 application for searching Lord of the Rings characters/
 
 ### 1. Clone the Repo
 
-```
 git clone https://github.com/jwlewisiii/lotr-api.git
 cd lotr-app
-```
 
 ### 2. Environment Setup
 
@@ -61,4 +59,3 @@ Start searching characters
 
 MIT License © 2025
 
-```

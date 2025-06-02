@@ -12,26 +12,22 @@ A simple Laravel + Vue 3 application for searching Lord of the Rings characters/
 
 ### 1. Clone the Repo
 
-```bash
+```
 git clone https://github.com/jwlewisiii/lotr-api.git
 cd lotr-app
-````
+```
 
 ### 2. Environment Setup
 
 Copy the `.env` file and configure your local settings:
 
-```bash
 cp .env.example .env
-```
 
 Make sure to update your database credentials if needed.
 
 ### 3. Start Docker
 
-```bash
 docker-compose up --build
-```
 
 This will boot Laravel on [http://localhost:8000](http://localhost:8000) and MySQL on port `3306`.
 
@@ -39,17 +35,13 @@ This will boot Laravel on [http://localhost:8000](http://localhost:8000) and MyS
 
 Once the containers are up:
 
-```bash
 docker exec -it <your_app_container> php artisan migrate
-```
 
 ### 5. Access the App
 
 Visit:
 
-```
 http://localhost:8000
-```
 
 Start searching characters
 
